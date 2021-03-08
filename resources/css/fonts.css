@@ -1,0 +1,35 @@
+:root {
+    --source-sans-pro: "Source Sans Pro", sans-serif;
+    --abril-fatface: "Abril Text", cursive;
+    --fira-code: "Fira Code", monospace;
+}
+
+@font-face {
+    font-family: "Abril Text";
+    src: url(./../fonts/AbrilText-Bold.woff2) format("woff2"),
+        url(./../fonts/AbrilText-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+html,
+body {
+    font-family: var(--source-sans-pro);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+body * {
+    font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--abril-fatface);
+    font-weight: 700;
+}

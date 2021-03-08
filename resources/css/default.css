@@ -1,0 +1,89 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html *,
+body * {
+    box-sizing: inherit;
+}
+
+:root {
+    --sizing-0: 0;
+    --sizing-1: 0.1rem;
+    --sizing-2: 0.1333rem;
+    --sizing-3: 0.1666rem;
+    --sizing-4: 0.2rem;
+    --sizing-5: 0.2333rem;
+    --sizing-6: 0.2666rem;
+    --sizing-7: 0.3rem;
+    --sizing-8: 0.3333rem;
+    --sizing-9: 0.3666rem;
+    --sizing-10: 0.4rem;
+    --sizing-11: 0.4333rem;
+    --sizing-12: 0.4666rem;
+    --sizing-13: 0.5rem;
+    --sizing-14: 0.5333rem;
+    --sizing-15: 0.5666rem;
+    --sizing-16: 0.6rem;
+    --sizing-17: 0.6333rem;
+    --sizing-18: 0.6666rem;
+    --sizing-19: 0.7rem;
+    --sizing-20: 0.7333rem;
+    --sizing-21: 0.7666rem;
+    --sizing-22: 0.8rem;
+    --sizing-23: 0.8333rem;
+    --sizing-24: 0.8666rem;
+    --sizing-25: 0.9rem;
+    --sizing-26: 0.9333rem;
+    --sizing-27: 0.9666rem;
+    --sizing-28: 1rem;
+
+    --padding-0: var(--sizing-0);
+    --padding-1: var(--sizing-1);
+    --padding-2: var(--sizing-4);
+    --padding-3: var(--sizing-7);
+    --padding-4: var(--sizing-10);
+    --padding-5: var(--sizing-13);
+    --padding-6: var(--sizing-16);
+    --padding-7: var(--sizing-19);
+    --padding-8: var(--sizing-22);
+    --padding-9: var(--sizing-27);
+    --padding-A: var(--sizing-28);
+}
+
+.p-0 {
+    padding: var(--padding-0);
+}
+.p-1 {
+    padding: var(--padding-1);
+}
+.p-2 {
+    padding: var(--padding-2);
+}
+.p-3 {
+    padding: var(--padding-3);
+}
+.p-4 {
+    padding: var(--padding-4);
+}
+.p-5 {
+    padding: var(--padding-5);
+}
+.p-6 {
+    padding: var(--padding-6);
+}
+.p-7 {
+    padding: var(--padding-7);
+}
+.p-8 {
+    padding: var(--padding-8);
+}
+.p-9 {
+    padding: var(--padding-9);
+}
+.p-A {
+    padding: var(--padding-A);
+}

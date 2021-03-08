@@ -1,0 +1,146 @@
+:root {
+    --background: #282a36;
+    --current-line: #44475a;
+    --foreground: #f8f8f2;
+    --comment: #6272a4;
+    --cyan: #8be9fd;
+    --green: #50fa7b;
+    --orange: #ffb86c;
+    --pink: #ff79c6;
+    --purple: #bd93f9;
+    --red: #ff5555;
+    --yellow: #f1fa8c;
+
+    --gray: #757575;
+    --light-gray: #bdbdbd;
+}
+
+html,
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+body * {
+    background-color: inherit;
+    color: inherit;
+}
+
+.color-background {
+    color: var(--background);
+}
+.color-current-line {
+    color: var(--current-line);
+}
+.color-foreground {
+    color: var(--foreground);
+}
+.color-comment {
+    color: var(--comment);
+}
+.color-cyan {
+    color: var(--cyan);
+}
+.color-green {
+    color: var(--green);
+}
+.color-orange {
+    color: var(--orange);
+}
+.color-pink {
+    color: var(--pink);
+}
+.color-purple {
+    color: var(--purple);
+}
+.color-red {
+    color: var(--red);
+}
+.color-yellow {
+    color: var(--yellow);
+}
+.color-gray {
+    color: var(--gray);
+}
+.color-light-gray {
+    color: var(--light-gray);
+}
+
+.bg-background {
+    background-color: var(--background);
+}
+.bg-current-line {
+    background-color: var(--current-line);
+}
+.bg-foreground {
+    background-color: var(--foreground);
+}
+.bg-comment {
+    background-color: var(--comment);
+}
+.bg-cyan {
+    background-color: var(--cyan);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-orange {
+    background-color: var(--orange);
+}
+.bg-pink {
+    background-color: var(--pink);
+}
+.bg-purple {
+    background-color: var(--purple);
+}
+.bg-red {
+    background-color: var(--red);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.bg-gray {
+    background-color: var(--gray);
+}
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.border-background {
+    border-color: var(--background);
+}
+.border-current-line {
+    border-color: var(--current-line);
+}
+.border-foreground {
+    border-color: var(--foreground);
+}
+.border-comment {
+    border-color: var(--comment);
+}
+.border-cyan {
+    border-color: var(--cyan);
+}
+.border-green {
+    border-color: var(--green);
+}
+.border-orange {
+    border-color: var(--orange);
+}
+.border-pink {
+    border-color: var(--pink);
+}
+.border-purple {
+    border-color: var(--purple);
+}
+.border-red {
+    border-color: var(--red);
+}
+.border-yellow {
+    border-color: var(--yellow);
+}
+.border-gray {
+    border-color: var(--gray);
+}
+.border-light-gray {
+    border-color: var(--light-gray);
+}
